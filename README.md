@@ -1,0 +1,1 @@
+# MiniProject_1_StrukDat
