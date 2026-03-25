@@ -5,7 +5,7 @@ We often use music applications everyday, like Spotify, Youtube Music, etc. But 
 
 ## Mini Project Overview   
 
-# Features   
+### Features   
 
 1. Playlist
    In the playlist, users can add a song to the queue, check the next song, and see all songs in queue.
@@ -16,7 +16,7 @@ We often use music applications everyday, like Spotify, Youtube Music, etc. But 
 3. Favourites
    A separate playlist for favorite songs, users can play these songs immediately without waiting for the queue.
 
-# Data Structures Explanation   
+### Data Structures Explanation   
 
 1. Queue
    Follows FIFO principle, used for the playlist feature. _(User adds a song, that will be played first)_
