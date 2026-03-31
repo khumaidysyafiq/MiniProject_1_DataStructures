@@ -56,14 +56,6 @@ void freeSong(Song *song) {
     }
 }
 
-/*void copySong(Song *dest, Song *source) {
-    if (dest && source) {
-        strcpy(dest->title, source->title);
-        strcpy(dest->artist, source->artist);
-        dest->next = NULL;
-    }
-}*/
-
 void initQueue(Queue *q) {
     q->front = NULL;
     q->back = NULL;
@@ -105,13 +97,6 @@ Song* dequeue(Queue *q) {
     q->size--;
     return removedSong;
 }
-
-/*Song* peekQueue(Queue *q) {
-    if (isEmptyQueue(q)) {
-        return NULL;
-    }
-    return q->front;
-}*/
 
 void displayQueue(Queue *q) {
     if (isEmptyQueue(q)) {
@@ -161,13 +146,6 @@ Song* pop(Stack *s) {
     s->size--;
     return removedSong;
 }
-
-/*Song* peekStack(Stack *s) {
-    if (isEmptyStack(s)) {
-        return NULL;
-    }
-    return s->top;
-}*/
 
 void displayStack(Stack *s) {
     if (isEmptyStack(s)) {
